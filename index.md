@@ -1,6 +1,22 @@
 # <center>Coldrainsnow's Blog</center>
 
+**OSG**
+
+​		[0.一键完成osg源码编译配置](post/2023-09-09-OSG的CMAKE配置.html)
+
+​		[1.创建一个球](post/2023-11-24-1.osg之创建一个球.html)
+
+​		[2.为球增加颜色](post/2023-11-24-2.osg之为球增加颜色.html)
+
+​		[3.为球增加纹理](post/2023-11-24-3.osg之为球增加纹理.html)
+
+​		[4.为球增加光照](post/2023-11-24-4.osg之为球增加光照.html)
+
+
+
 **C++**
+
+​		[dll的导入导出](post/2023-11-29-dll的导入导出.html)
 
 ​		[static和struct](post/2023-10-17-static和struct.html)
 
@@ -15,8 +31,6 @@
 ​		[头文件相互引用](post/2023-09-14-头文件相互引用.html)
 
 ​		[单例模式](post/2023-09-13-单例模式.html)
-
-​		[OSG的CMAKE配置](post/2023-09-09-OSG的CMAKE配置.html)
 
 ​		[sizeof遇到自增的问题](post/2023-08-02-sizeof遇到自增的问题.html)
 
@@ -83,3 +97,7 @@
 ​		[记一次项目总结](post/2023-09-21-记一次项目总结.html)
 
 ​		
+
+**资料汇总**
+
+​		[osg和图形学资料](post/2023-11-30-图形学资料总结.html)

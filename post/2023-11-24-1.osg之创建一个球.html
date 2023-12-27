@@ -201,6 +201,87 @@ mark .md-meta { color: rgb(0, 0, 0); }
 .md-inline-math-container mjx-container { zoom: 0.95; }
 
 
+.CodeMirror { height: auto; }
+.CodeMirror.cm-s-inner { background: inherit; }
+.CodeMirror-scroll { overflow: auto hidden; z-index: 3; }
+.CodeMirror-gutter-filler, .CodeMirror-scrollbar-filler { background-color: rgb(255, 255, 255); }
+.CodeMirror-gutters { border-right: 1px solid rgb(221, 221, 221); background: inherit; white-space: nowrap; }
+.CodeMirror-linenumber { padding: 0px 3px 0px 5px; text-align: right; color: rgb(153, 153, 153); }
+.cm-s-inner .cm-keyword { color: rgb(119, 0, 136); }
+.cm-s-inner .cm-atom, .cm-s-inner.cm-atom { color: rgb(34, 17, 153); }
+.cm-s-inner .cm-number { color: rgb(17, 102, 68); }
+.cm-s-inner .cm-def { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-variable { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-variable-2 { color: rgb(0, 85, 170); }
+.cm-s-inner .cm-variable-3 { color: rgb(0, 136, 85); }
+.cm-s-inner .cm-string { color: rgb(170, 17, 17); }
+.cm-s-inner .cm-property { color: rgb(0, 0, 0); }
+.cm-s-inner .cm-operator { color: rgb(152, 26, 26); }
+.cm-s-inner .cm-comment, .cm-s-inner.cm-comment { color: rgb(170, 85, 0); }
+.cm-s-inner .cm-string-2 { color: rgb(255, 85, 0); }
+.cm-s-inner .cm-meta { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-qualifier { color: rgb(85, 85, 85); }
+.cm-s-inner .cm-builtin { color: rgb(51, 0, 170); }
+.cm-s-inner .cm-bracket { color: rgb(153, 153, 119); }
+.cm-s-inner .cm-tag { color: rgb(17, 119, 0); }
+.cm-s-inner .cm-attribute { color: rgb(0, 0, 204); }
+.cm-s-inner .cm-header, .cm-s-inner.cm-header { color: rgb(0, 0, 255); }
+.cm-s-inner .cm-quote, .cm-s-inner.cm-quote { color: rgb(0, 153, 0); }
+.cm-s-inner .cm-hr, .cm-s-inner.cm-hr { color: rgb(153, 153, 153); }
+.cm-s-inner .cm-link, .cm-s-inner.cm-link { color: rgb(0, 0, 204); }
+.cm-negative { color: rgb(221, 68, 68); }
+.cm-positive { color: rgb(34, 153, 34); }
+.cm-header, .cm-strong { font-weight: 700; }
+.cm-del { text-decoration: line-through; }
+.cm-em { font-style: italic; }
+.cm-link { text-decoration: underline; }
+.cm-error { color: red; }
+.cm-invalidchar { color: red; }
+.cm-constant { color: rgb(38, 139, 210); }
+.cm-defined { color: rgb(181, 137, 0); }
+div.CodeMirror span.CodeMirror-matchingbracket { color: rgb(0, 255, 0); }
+div.CodeMirror span.CodeMirror-nonmatchingbracket { color: rgb(255, 34, 34); }
+.cm-s-inner .CodeMirror-activeline-background { background: inherit; }
+.CodeMirror { position: relative; overflow: hidden; }
+.CodeMirror-scroll { height: 100%; outline: 0px; position: relative; box-sizing: content-box; background: inherit; }
+.CodeMirror-sizer { position: relative; }
+.CodeMirror-gutter-filler, .CodeMirror-hscrollbar, .CodeMirror-scrollbar-filler, .CodeMirror-vscrollbar { position: absolute; z-index: 6; display: none; outline: 0px; }
+.CodeMirror-vscrollbar { right: 0px; top: 0px; overflow: hidden; }
+.CodeMirror-hscrollbar { bottom: 0px; left: 0px; overflow: auto hidden; }
+.CodeMirror-scrollbar-filler { right: 0px; bottom: 0px; }
+.CodeMirror-gutter-filler { left: 0px; bottom: 0px; }
+.CodeMirror-gutters { position: absolute; left: 0px; top: 0px; padding-bottom: 10px; z-index: 3; overflow-y: hidden; }
+.CodeMirror-gutter { white-space: normal; height: 100%; box-sizing: content-box; padding-bottom: 30px; margin-bottom: -32px; display: inline-block; }
+.CodeMirror-gutter-wrapper { position: absolute; z-index: 4; background: 0px 0px !important; border: none !important; }
+.CodeMirror-gutter-background { position: absolute; top: 0px; bottom: 0px; z-index: 4; }
+.CodeMirror-gutter-elt { position: absolute; cursor: default; z-index: 4; }
+.CodeMirror-lines { cursor: text; }
+.CodeMirror pre { border-radius: 0px; border-width: 0px; background: 0px 0px; font-family: inherit; font-size: inherit; margin: 0px; white-space: pre; overflow-wrap: normal; color: inherit; z-index: 2; position: relative; overflow: visible; }
+.CodeMirror-wrap pre { overflow-wrap: break-word; white-space: pre-wrap; word-break: normal; }
+.CodeMirror-code pre { border-right: 30px solid transparent; width: fit-content; }
+.CodeMirror-wrap .CodeMirror-code pre { border-right: none; width: auto; }
+.CodeMirror-linebackground { position: absolute; inset: 0px; z-index: 0; }
+.CodeMirror-linewidget { position: relative; z-index: 2; overflow: auto; }
+.CodeMirror-wrap .CodeMirror-scroll { overflow-x: hidden; }
+.CodeMirror-measure { position: absolute; width: 100%; height: 0px; overflow: hidden; visibility: hidden; }
+.CodeMirror-measure pre { position: static; }
+.CodeMirror div.CodeMirror-cursor { position: absolute; visibility: hidden; border-right: none; width: 0px; }
+.CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+.CodeMirror-focused div.CodeMirror-cursor { visibility: inherit; }
+.cm-searching { background: rgba(255, 255, 0, 0.4); }
+span.cm-underlined { text-decoration: underline; }
+span.cm-strikethrough { text-decoration: line-through; }
+.cm-tw-syntaxerror { color: rgb(255, 255, 255); background-color: rgb(153, 0, 0); }
+.cm-tw-deleted { text-decoration: line-through; }
+.cm-tw-header5 { font-weight: 700; }
+.cm-tw-listitem:first-child { padding-left: 10px; }
+.cm-tw-box { border-style: solid; border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-color: inherit; border-top-width: 0px !important; }
+.cm-tw-underline { text-decoration: underline; }
+@media print {
+  .CodeMirror div.CodeMirror-cursor { visibility: hidden; }
+}
+
+
 :root {
     --side-bar-bg-color: #fafafa;
     --control-text-color: #777;
@@ -590,9 +671,14 @@ header, .context-menu, .megamenu-content, footer{
 
 
 
-</style><title>index</title>
+</style><title>2023-11-24-1.osg之创建一个球</title>
 </head>
 <body class='typora-export os-windows'><div class='typora-export-content'>
-<div id='write'  class=''><h1 id='centercoldrainsnows-blogcenter'><center><span>Coldrainsnow&#39;s Blog</span></center></h1><p><strong><span>OSG</span></strong></p><p><span>		</span><a href='post/2023-09-09-OSG的CMAKE配置.html'><span>0.一键完成osg源码编译配置</span></a></p><p><span>		</span><a href='post/2023-11-24-1.osg之创建一个球.html'><span>1.创建一个球</span></a></p><p><span>		</span><a href='post/2023-11-24-2.osg之为球增加颜色.html'><span>2.为球增加颜色</span></a></p><p><span>		</span><a href='post/2023-11-24-3.osg之为球增加纹理.html'><span>3.为球增加纹理</span></a></p><p><span>		</span><a href='post/2023-11-24-4.osg之为球增加光照.html'><span>4.为球增加光照</span></a></p><p>&nbsp;</p><p><strong><span>C++</span></strong></p><p><span>		</span><a href='post/2023-11-29-dll的导入导出.html'><span>dll的导入导出</span></a></p><p><span>		</span><a href='post/2023-10-17-static和struct.html'><span>static和struct</span></a></p><p><span>		</span><a href='post/2023-10-08-C++开发经验.html'><span>C++开发经验</span></a></p><p><span>		</span><a href='post/2023-10-07-C++踩坑之路.html'><span>C++踩坑之路</span></a></p><p><span>		</span><a href='post/2023-10-1-C++标准库读书笔记.html'><span>C++标准库读书笔记</span></a></p><p><span>		</span><a href='post/2023-09-19-C++处理字符串.html'><span>C++处理字符串</span></a></p><p><span>		</span><a href='post/2023-09-14-头文件相互引用.html'><span>头文件相互引用</span></a></p><p><span>		</span><a href='post/2023-09-13-单例模式.html'><span>单例模式</span></a></p><p><span>		</span><a href='post/2023-08-02-sizeof遇到自增的问题.html'><span>sizeof遇到自增的问题</span></a></p><p><span>		</span><a href='post/2023-07-10-C++新经典读书笔记.html'><span>C++新经典读书笔记</span></a></p><p><span>		</span><a href='post/2023-06-24-function和bind.html'><span>function和bind</span></a></p><p><span>		</span><a href='post/2023-06-22-论函数调用运算符，function类模版.html'><span>论函数调用运算符，function类模版</span></a></p><p><span>		</span><a href='post/2023-06-22-函数指针.html'><span>函数指针</span></a></p><p><span>		</span><a href='post/2023-06-19-C++11中引入的bind绑定器和function函数对象.html'><span>C++11中引入的bind绑定器和function函数对象</span></a></p><p><span>		</span><a href='post/2023-06-17-论函数对象.html'><span>论函数对象</span></a></p><p><span>		</span><a href='post/2023-06-16-【一文读不懂Jsoncpp】1.起始篇.html'><span>【一文读不懂Jsoncpp】1.起始篇</span></a></p><p><span>		</span><a href='post/2023-06-16-【一文读不懂Jsoncpp】2.类的初步认识.html'><span>【一文读不懂Jsoncpp】2.类的初步认识</span></a></p><p><span>		</span><a href='post/2023-06-16-【一文读不懂Jsoncpp】3.序列化和反序列化.html'><span>【一文读不懂Jsoncpp】3.序列化和反序列化</span></a></p><p><span>		</span><a href='post/2023-06-15-如何理解互斥锁.html'><span>如何理解互斥锁</span></a></p><p><span>		</span><a href='post/2023-06-13-AWS-SDK-CPP遇到的问题.html'><span>AWS-SDK-CPP遇到的问题</span></a></p><p><span>		</span><a href='post/2023-06-10-实现数据库连接池-前传.html'><span>实现数据库连接池-前传</span></a></p><p><span>		</span><a href='post/2023-06-10-实现数据库连接池-后传.html'><span>实现数据库连接池-后传</span></a></p><p><span>		</span><a href='post/2023-06-07-对象引用和对象指针.html'><span>对象引用和对象指针</span></a></p><p><span>		</span><a href='post/2023-05-27-智能指针.html'><span>智能指针</span></a></p><p><span>		</span><a href='post/2023-05-27-优化对象变高效.html'><span>优化对象变高效</span></a></p><p><span>		</span><a href='post/2022-07-09-Effective C++笔记.html'><span>Effective C++笔记</span></a></p><p><span>		</span><a href='post/2022-05-09-C++入门需要知道的.html'><span>C++入门需要知道的</span></a></p><p>&nbsp;</p><p><strong><span>CAD</span></strong></p><p><span>		</span><a href='post/2023-06-09-ObjectARX几何图形库.html'><span>ObjectARX几何图形库</span></a></p><p>&nbsp;</p><p><strong><span>开发工具</span></strong></p><p><span>		</span><a href='post/2023-06-05-Tortoisegit的贮藏.html'><span>Tortoisegit的贮藏</span></a></p><p><span>		</span><a href='post/2023-06-19-由于找不到libeay32.dll 无法继续执行代码.html'><span>由于找不到libeay32.dll 无法继续执行代码</span></a></p><p><span>		</span><a href='post/2023-06-14-查找DLL中的函数.html'><span>查找DLL中的函数</span></a></p><p><span>		</span><a href='post/2023-09-11-配置git代理访问github.html'><span>配置git代理访问github</span></a></p><p>&nbsp;</p><p><strong><span>工程经验</span></strong></p><p><span>		</span><a href='post/2023-05-25-VS配置新项目.html'><span>VS配置新项目</span></a></p><p><span>		</span><a href='post/2023-09-21-记一次项目总结.html'><span>记一次项目总结</span></a></p><p><span>		</span></p><p><strong><span>资料汇总</span></strong></p><p><span>		</span><a href='post/2023-11-30-图形学资料总结.html'><span>osg和图形学资料</span></a></p></div></div>
+<div id='write'  class=''><h1 id='1源码'><span>1.源码</span></h1><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang="cpp" style="break-inside: unset;"><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang="cpp"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 10.6667px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><span><span>​</span>x</span></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation" style=""><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-meta">#include &lt;osgViewer/Viewer&gt;</span></span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-meta">#include &lt;osg/Geode&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-meta">#include &lt;osg/ShapeDrawable&gt;</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-variable-3">int</span> <span class="cm-def">main</span>()</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">{</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-comment">// 创建一个Viewer对象，这是OSG的主要接口</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-variable">osgViewer::Viewer</span> <span class="cm-variable">viewer</span>;</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-comment">// 创建一个用于绘制形状的Geode节点</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-variable">osg::ref_ptr</span><span class="cm-operator">&lt;</span><span class="cm-variable">osg::Geode</span><span class="cm-operator">&gt;</span> <span class="cm-variable">geode</span> <span class="cm-operator">=</span> <span class="cm-keyword">new</span> <span class="cm-variable">osg::Geode</span>();</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-comment">// 创建一个球体，设置其半径为1.0，然后添加到Geode节点</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-variable">geode</span><span class="cm-operator">-&gt;</span><span class="cm-variable">addDrawable</span>(<span class="cm-keyword">new</span> <span class="cm-variable">osg::ShapeDrawable</span>(<span class="cm-keyword">new</span> <span class="cm-variable">osg::Sphere</span>(<span class="cm-variable">osg::Vec3</span>(), <span class="cm-number">1.0</span>)));</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-comment">// 将Geode节点添加到场景图中</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-variable">viewer</span>.<span class="cm-variable">setSceneData</span>(<span class="cm-variable">geode</span>.<span class="cm-variable">get</span>());</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span cm-text="" cm-zwsp="">
+</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-comment">// 开始渲染循环</span></span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-keyword">return</span> <span class="cm-variable">viewer</span>.<span class="cm-variable">run</span>();</span></pre><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;">}</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 557px;"></div><div class="CodeMirror-gutters" style="display: none; height: 557px;"></div></div></div></pre><h1 id='2说明'><span>2.说明</span></h1><p><span>其中比较难理解的是</span></p><pre class="md-fences md-end-block ty-contain-cm modeLoaded" spellcheck="false" lang="cpp"><div class="CodeMirror cm-s-inner cm-s-null-scroll CodeMirror-wrap" lang="cpp"><div style="overflow: hidden; position: relative; width: 3px; height: 0px; top: 10.6667px; left: 8px;"><textarea autocorrect="off" autocapitalize="off" spellcheck="false" tabindex="0" style="position: absolute; bottom: -1em; padding: 0px; width: 1000px; height: 1em; outline: none;"></textarea></div><div class="CodeMirror-scrollbar-filler" cm-not-content="true"></div><div class="CodeMirror-gutter-filler" cm-not-content="true"></div><div class="CodeMirror-scroll" tabindex="-1"><div class="CodeMirror-sizer" style="margin-left: 0px; margin-bottom: 0px; border-right-width: 0px; padding-right: 0px; padding-bottom: 0px;"><div style="position: relative; top: 0px;"><div class="CodeMirror-lines" role="presentation"><div role="presentation" style="position: relative; outline: none;"><div class="CodeMirror-measure"><pre><span>xxxxxxxxxx</span></pre></div><div class="CodeMirror-measure"></div><div style="position: relative; z-index: 1;"></div><div class="CodeMirror-code" role="presentation"><div class="CodeMirror-activeline" style="position: relative;"><div class="CodeMirror-activeline-background CodeMirror-linebackground"></div><div class="CodeMirror-gutter-background CodeMirror-activeline-gutter" style="left: 0px; width: 0px;"></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-comment">// 创建一个球体，设置其半径为1.0，然后添加到Geode节点</span></span></pre></div><pre class=" CodeMirror-line " role="presentation"><span role="presentation" style="padding-right: 0.1px;"><span class="cm-tab" role="presentation" cm-text="	">    </span><span class="cm-variable">geode</span><span class="cm-operator">-&gt;</span><span class="cm-variable">addDrawable</span>(<span class="cm-keyword">new</span> <span class="cm-variable">osg::ShapeDrawable</span>(<span class="cm-keyword">new</span> <span class="cm-variable">osg::Sphere</span>(<span class="cm-variable">osg::Vec3</span>(), <span class="cm-number">1.0</span>)));</span></pre></div></div></div></div></div><div style="position: absolute; height: 0px; width: 1px; border-bottom: 0px solid transparent; top: 76px;"></div><div class="CodeMirror-gutters" style="display: none; height: 76px;"></div></div></div></pre><p><span>这行代码的目的是在场景中添加一个可以绘制的形状。让我们一步步来看：</span></p><ol start='' ><li><code>new osg::Sphere(osg::Vec3(), 1.0)</code><span>：这部分代码创建了一个新的球体对象。</span><code>osg::Sphere</code><span>是一个类，它的构造函数接受两个参数：球心的位置和半径。在这里，我们使用</span><code>osg::Vec3()</code><span>创建了一个新的向量，它的所有分量（x，y，z）都被初始化为0，所以球心位于原点。球体的半径被设置为1.0。</span></li><li><code>new osg::ShapeDrawable(...)</code><span>：这部分代码创建了一个新的ShapeDrawable对象。ShapeDrawable是一个可以绘制形状的类，它的构造函数接受一个形状对象作为参数。在这里，我们传入了我们刚刚创建的球体对象。</span></li><li><code>geode-&gt;addDrawable(...)</code><span>：最后，我们调用了Geode对象的</span><code>addDrawable</code><span>方法，将我们刚刚创建的ShapeDrawable对象添加到Geode中。这样，当OSG渲染这个Geode时，它就会绘制我们的球体。</span></li></ol><p><span>总的来说这行代码创建了一个位于原点、半径为1.0的球体，并将其添加到了我们的场景中</span></p></div></div>
 </body>
 </html>
